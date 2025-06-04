@@ -67,9 +67,9 @@ def weather_code_to_description(code):
 
 # 3. Send email via Outlook (using Gmail SMTP)
 def send_email_via_outlook():
-    sender_email = os.getenv("SENDER_EMAIL", "your_email@gmail.com") # Get from environment variable
-    sender_password = os.getenv("SENDER_PASSWORD") # Get from environment variable
-    recipient_email = os.getenv("RECIPIENT_EMAIL", "your_email@gmail.com") # Get from environment variable
+    sender_email = os.getenv("SENDER_EMAIL", "madhurichandanbatwe1@gmail.com") # Get from environment variable
+    sender_password = os.getenv("bzoj ozes likh pgma") # Get from environment variable
+    recipient_email = os.getenv("RECIPIENT_EMAIL", "madhurichandanbatwe1@gmail.com") # Get from environment variable
 
     if not sender_password:
         print("Error: SENDER_PASSWORD environment variable not set. Cannot send email.")

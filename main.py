@@ -107,8 +107,8 @@ def job():
         print("No rain or clouds. No need for umbrella today.")
 
 # 5. Schedule the job
-# schedule.every().day.at("06:57").do(job) # Uncomment and set your preferred time (24hr format)
-schedule.every(1).minutes.do(job) # Runs every 1 minute for testing. Change for production.
+schedule.every().day.at("01:15").do(job) # Uncomment and set your preferred time (24hr format)
+#schedule.every(1).minutes.do(job) # Runs every 1 minute for testing. Change for production.
 job() # Run immediately for quick test
 
 print("Scheduler started. Waiting for the next run...")
